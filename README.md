@@ -1,5 +1,7 @@
 # HezaLab Africa
 
+![Students using virtual reality headsets in a classroom](src/assets/images/hezalab-vr-education.jpg)
+
 HezaLab Africa is an immersive STEM education platform built to make practical science learning more accessible to students across Africa. In Rwanda, only 189 of 2,192 secondary schools have science laboratories, according to the Ministry of Education. That shortage limits students' opportunities to explore science through hands-on experiments.
 
 HezaLab brings the laboratory into the classroom through virtual reality (VR), augmented reality (AR), and browser-based 3D simulations. Students can explore experiments in physics, chemistry, biology, and other STEM subjects without relying on costly lab equipment or consumable materials.
