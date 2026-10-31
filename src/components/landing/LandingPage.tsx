@@ -5,6 +5,10 @@
 
 import React from 'react';
 import { useApp } from '../../context/AppContext';
+import heroLabSimulation from '../../assets/images/hero_lab_simulation_1793452400723.jpg';
+import physicsLabWorkspace from '../../assets/images/lab_physics_workspace_1793452401236.jpg';
+import chemistryLabWorkspace from '../../assets/images/lab_chemistry_workspace_1793452402157.jpg';
+import biologyLabMicroscope from '../../assets/images/lab_biology_microscope_1793452401973.jpg';
 import {
   FlaskConical,
   Atom,
@@ -100,7 +104,7 @@ export const LandingPage: React.FC = () => {
             <div className="lg:col-span-6 relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-800 group">
                 <img
-                  src="/src/assets/images/hero_lab_simulation_1793452400723.jpg"
+                  src={heroLabSimulation}
                   alt="Students in Kigali conducting virtual reality science experiment with HezaLab Africa"
                   referrerPolicy="no-referrer"
                   className="w-full h-[420px] object-cover group-hover:scale-105 transition-transform duration-700"
@@ -260,7 +264,7 @@ export const LandingPage: React.FC = () => {
             <div>
               <div className="relative h-48 overflow-hidden">
                 <img
-                  src="/src/assets/images/lab_physics_workspace_1793452401236.jpg"
+                  src={physicsLabWorkspace}
                   alt="Physics laboratory with multimeters and circuits"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -298,7 +302,7 @@ export const LandingPage: React.FC = () => {
             <div>
               <div className="relative h-48 overflow-hidden">
                 <img
-                  src="/src/assets/images/lab_chemistry_workspace_1793452402157.jpg"
+                  src={chemistryLabWorkspace}
                   alt="Chemistry laboratory titration setup"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -336,7 +340,7 @@ export const LandingPage: React.FC = () => {
             <div>
               <div className="relative h-48 overflow-hidden">
                 <img
-                  src="/src/assets/images/lab_biology_microscope_1793452401973.jpg"
+                  src={biologyLabMicroscope}
                   alt="Biology laboratory microscope"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
