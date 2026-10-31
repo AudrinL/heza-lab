@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# HezaLab Africa
 
-# Run and deploy your AI Studio app
+HezaLab brings practical science learning to the browser. Students can explore virtual physics, chemistry, and biology labs, while teachers and school administrators can preview the platform from their own dashboards.
 
-This contains everything you need to run your app locally.
+The project is built with React, TypeScript, Vite, and Tailwind CSS.
 
-View your app in AI Studio: https://ai.studio/apps/3a56c7ab-905f-4ad9-96de-ad3de0e3caf8
+## Get started
 
-## Run Locally
+You’ll need Node.js 22.12 or later.
 
-**Prerequisites:** Node.js 22.12 or later
+```sh
+npm install
+npm run dev
+```
 
+Vite prints the local address when the development server starts.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Build and check
+
+Create a production build:
+
+```sh
+npm run build
+```
+
+Run the TypeScript check:
+
+```sh
+npm run lint
+```
