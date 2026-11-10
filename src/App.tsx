@@ -15,6 +15,7 @@ import { TeacherDashboard } from './components/teacher/TeacherDashboard';
 import { SchoolDashboard } from './components/school/SchoolDashboard';
 import { ImmersiveDemo } from './components/immersive/ImmersiveDemo';
 import { OfflineDemo } from './components/offline/OfflineDemo';
+import { AiAssistant } from './components/assistant/AiAssistant';
 import { CheckCircle2, Info, AlertTriangle } from 'lucide-react';
 
 const AppContent: React.FC = () => {
@@ -52,6 +53,8 @@ const AppContent: React.FC = () => {
       </main>
 
       <Footer />
+
+      <AiAssistant />
 
       {/* Toast Notification Container */}
       <div className="fixed bottom-5 right-5 z-50 flex flex-col gap-2 pointer-events-none">
